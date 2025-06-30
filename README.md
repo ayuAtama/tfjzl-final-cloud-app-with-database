@@ -15,12 +15,12 @@ For your reference, we have prepared the ER diagram design for the new assesemen
 ![Onlinecourse ER Diagram](https://github.com/ibm-developer-skills-network/final-cloud-app-with-database/blob/master/static/media/course_images/onlinecourse_app_er.png)
 
 **How To**
-pip install --upgrade distro-info
-pip3 install --upgrade pip==23.2.1
-pip install virtualenv
-virtualenv djangoenv
-source djangoenv/bin/activate
-pip install -U -r requirements.txt
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py runserver
+1. pip install --upgrade distro-info
+2. pip3 install --upgrade pip==23.2.1
+2. pip install virtualenv
+2. virtualenv djangoenv
+2. source djangoenv/bin/activate
+2. pip install -U -r requirements.txt
+2. python3 manage.py makemigrations
+2. python3 manage.py migrate
+2. python3 manage.py runserver
